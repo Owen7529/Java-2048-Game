@@ -1,6 +1,8 @@
 # Java 2048 程式架構
 
-以下依目前取得的 `GameView.java` 與先前提供的三個原始檔案整理。`Main.java`、`Check.java` 的最新 package 宣告尚待確認。
+本文件依照 GitHub Repository 中的 `Main.java`、`GameView.java` 與 `Check.java` 原始碼整理，說明 Java 2048 遊戲的類別結構與主要職責。
+
+三個原始碼檔案皆位於 `Main` package，`GameBoard` 為 `GameView` 的內部類別。
 
 ```mermaid
 classDiagram
