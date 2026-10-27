@@ -6,7 +6,6 @@
 
 ## 遊戲畫面
 
-<!-- 完成實際遊戲截圖後，將圖片存為 screenshots/game.png，再取消下一行註解。 -->
 ![Java 2048 遊戲實際執行畫面](screenshots/game.png)
 
 ## 主要功能
