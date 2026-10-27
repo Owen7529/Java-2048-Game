@@ -40,15 +40,21 @@
 3. 確認專案的 Java 執行環境相容（建議 Java 17）。
 4. 執行 `Main.Main` 類別中的 `main()` 方法。
 
-### 使用可執行 JAR（規劃中）
+### 使用可執行 JAR
 
-完成正式發布後，從 GitHub Releases 下載 `Java2048.jar`，並在已安裝相容 Java 執行環境的電腦執行：
+本專案已提供正式可執行版本，不需要安裝 Eclipse 即可啟動遊戲。
+
+1. 前往 [GitHub Releases v1.0.0](https://github.com/Owen7529/Java-2048-Game/releases/tag/v1.0.0)。
+2. 下載 `Java2048.jar`。
+3. 確認電腦已安裝相容的 Java 執行環境（建議 Java 17）。
+4. 在 JAR 所在資料夾開啟命令提示字元或終端機。
+5. 執行：
 
 ```bash
 java -jar Java2048.jar
 ```
 
-**注意：目前尚未發布 JAR，以上為預計的使用方式。**
+**注意：** 本遊戲是 Java Swing 桌面應用程式，無法直接透過 GitHub Pages 在瀏覽器中執行。
 
 ## 專案架構
 
